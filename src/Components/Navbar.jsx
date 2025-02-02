@@ -22,51 +22,43 @@ const Navbar = () => {
             data-bs-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+            aria-label="Toggle navigation">
             <svg
               className="h-3 w-3"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+              xmlns="http://www.w3.org/2000/svg">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M4s 6h16M4 12h16m-7 6h7"
-              ></path>
+                d="M4 6h16 M4 12h16 m-7 6h7"></path>
             </svg>
           </button>
 
           {/* Navbar Links */}
           <div
             className="hidden md:flex md:items-center md:space-x-8"
-            id="navbarNav"
-          >
+            id="navbarNav">
             <a
               href="/dashboard"
-              className="text-[#820C59] hover:bg-[#F3E5F5] hover:text-[#6F1747] px-3 py-2 transition-all duration-300 rounded-md"
-            >
+              className="text-[#820C59] hover:bg-[#F3E5F5] hover:text-[#6F1747] px-3 py-2 transition-all duration-300 rounded-md">
               Dashboard
             </a>
             <a
               href="#"
-              className="text-[#820C59] hover:bg-[#F3E5F5] hover:text-[#6F1747] px-3 py-2 transition-all duration-300 rounded-md"
-            >
+              className="text-[#820C59] hover:bg-[#F3E5F5] hover:text-[#6F1747] px-3 py-2 transition-all duration-300 rounded-md">
               Input Form
             </a>
             <a
               href="/user-rights"
-              className="text-[#820C59] hover:bg-[#F3E5F5] hover:text-[#6F1747] px-3 py-2 transition-all duration-300 rounded-md"
-            >
+              className="text-[#820C59] hover:bg-[#F3E5F5] hover:text-[#6F1747] px-3 py-2 transition-all duration-300 rounded-md">
               User Rights
             </a>
             <a
               href="/activity-scope"
-              className="text-[#820C59] hover:bg-[#F3E5F5] hover:text-[#6F1747] px-3 pr-20 py-2 transition-all duration-300 rounded-md"
-            >
+              className="text-[#820C59] hover:bg-[#F3E5F5] hover:text-[#6F1747] px-3 pr-20 py-2 transition-all duration-300 rounded-md">
               Activity Data
             </a>
           </div>

@@ -1,16 +1,15 @@
-import React from 'react';
-import Navbar from '../Navbar';
+import React from "react";
+import Navbar from "../Navbar";
 
- 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
+      {/* Navbar (Fixed Height) */}
       <Navbar />
-      
-        {children}  {/* This will render the page content */}
-
+      {/* Page Content - Takes Remaining Height */}
+      <div className="flex-grow flex">{children}</div>
     </div>
   );
-}
- 
+};
+
 export default Layout;
