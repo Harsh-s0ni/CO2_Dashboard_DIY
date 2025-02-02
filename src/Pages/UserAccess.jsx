@@ -45,10 +45,9 @@ function UserAccess() {
       password,
       isActive,
       expirationDate,
+      role,
       location,
     };
-    const [role, setRole] = useState(""); // Stores selected role
-
     console.log("User Access Data:", userData);
     // TODO: Integrate API call here
   };
